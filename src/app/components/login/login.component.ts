@@ -25,7 +25,7 @@ export class LoginComponent implements OnInit {
   public login() {
     const { email, password } = this.form.value;
 
-    if (email === 'edwin@gmail.com' && password === '123456') {
+    if (email === 'efbayonaa@ufpso.edu.co' && password === '123456') {
       localStorage.setItem('isLogged', 'true');
       this.router.navigate(['/dashboard']);
 
