@@ -1,0 +1,47 @@
+<div class="grid">
+  <p-card class="col-12 lg:col-6" header="RandomForestClassifier">
+    <p-table [value]="forestClassifier" responsiveLayout="scroll">
+      <ng-template pTemplate="header">
+        <tr>
+          <th></th>
+          <th>precision</th>
+          <th>recall</th>
+          <th>f1-score</th>
+          <th>support</th>
+        </tr>
+      </ng-template>
+      <ng-template pTemplate="body" let-classifier>
+        <tr>
+          <td>{{ classifier.label }}</td>
+          <td>{{ classifier.presicion }}</td>
+          <td>{{ classifier.recall }}</td>
+          <td>{{ classifier.score }}</td>
+          <td>{{ classifier.support }}</td>
+        </tr>
+      </ng-template>
+    </p-table>
+  </p-card>
+
+  <p-card class="col-12 lg:col-6" header="RandomForestClassifier2">
+    <p-table [value]="forestClassifier2" responsiveLayout="scroll">
+      <ng-template pTemplate="header">
+        <tr>
+          <th></th>
+          <th>precision</th>
+          <th>recall</th>
+          <th>f1-score</th>
+          <th>support</th>
+        </tr>
+      </ng-template>
+      <ng-template pTemplate="body" let-classifier>
+        <tr>
+          <td>{{ classifier.label }}</td>
+          <td>{{ classifier.presicion }}</td>
+          <td>{{ classifier.recall }}</td>
+          <td>{{ classifier.score }}</td>
+          <td>{{ classifier.support }}</td>
+        </tr>
+      </ng-template>
+    </p-table>
+  </p-card>
+</div>
