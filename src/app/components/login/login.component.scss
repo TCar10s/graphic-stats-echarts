@@ -1,5 +1,15 @@
-:host {
-    display: grid;
-    height: 100vh;
-    place-items: center;
+.login {
+  display: grid;
+  height: 100vh;
+  place-items: center;
+}
+
+.login form {
+  background-color: white;
+}
+
+.bg {
+  background-image: url("/assets/img/universidad-01.png");
+  background-size: cover;
+  background-color: #000;
 }
