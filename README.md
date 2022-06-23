@@ -8,5 +8,5 @@ npm install
 ### Para correr el proyecto use:
 
 ```
-ng server
+ng serve
 ```
